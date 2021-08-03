@@ -10,6 +10,6 @@ namespace DemoCheckBoxList.Models.Forms
     {
         public string Name { get; set; }
 
-        public SelectListItem[] Choices { get; set; }
+        public IEnumerable<SelectListItem> Choices { get; set; }
     }
 }
